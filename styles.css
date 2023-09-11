@@ -3,7 +3,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(9,1fr);
-	gap:5px;
+	gap:10px;
 	
 }
 @media (min-width:420px){
@@ -11,7 +11,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(4,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (max-width:420px){
@@ -19,7 +19,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(4,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (min-width:600px){
@@ -27,7 +27,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(5,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (min-width:768px){
@@ -35,7 +35,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(6,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (min-width:992px){
@@ -43,7 +43,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(7,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (min-width:1200px){
@@ -51,7 +51,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(8,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 @media (min-width:1420px){
@@ -59,7 +59,7 @@
 	display:grid;
 	flex-wrap:wrap;
 	grid-template-columns:repeat(9,1fr);
-	gap:5px;
+	gap:10px;
 }
 }
 .grid-item{
