@@ -18,14 +18,14 @@
 }
 
 /* Additional CSS for responsiveness */
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .grid-container {
 	grid-template-columns:repeat(4,1fr);
 	  
   }
 }
 
-@media (max-width: 576px)and(min-width:400px) {
+@media (max-width: 576px)and(min-width:420px) {
   .grid-container {
 	grid-template-columns:repeat(6,1fr);
 	  
