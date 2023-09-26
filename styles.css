@@ -1,9 +1,9 @@
-/* Add this CSS code to your stylesheet */
+/* CSS for Responsive Grid Layout */
 
 .grid-container {
-  display: grid;
-	grid-template-columns:repeat(9,1fr);
-  gap: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .grid-item {
@@ -11,42 +11,9 @@
   height: 150px;
   width: 200px;
   border-radius: 5px;
-  font-size: 40px;
+  margin: 10px;
   display: flex;
-  align-items: center;
   justify-content: center;
-}
-
-/* Additional CSS for responsiveness */
-@media (max-width: 420px) {
-  .grid-container {
-	grid-template-columns:repeat(4,1fr);
-	  
-  }
-}
-
-@media (max-width: 576px)and(min-width:420px) {
-  .grid-container {
-	grid-template-columns:repeat(6,1fr);
-	  
-  }
-}
-
-@media (max-width: 900px)and (min-width:701px) {
-  .grid-container {
-	grid-template-columns:repeat(7,1fr);
-	  
-  }
-}
-@media (max-width: 1020px) {
-  .grid-container {
-	grid-template-columns:repeat(8,1fr);
-	  
-  }
-}
-@media (min-width: 501px)and (max-width:699px) {
-  .grid-container {
-	grid-template-columns:repeat(6,1fr);
-	  
-  }
+  align-items: center;
+  font-size: 40px;
 }
